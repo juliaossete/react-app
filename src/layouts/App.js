@@ -9,7 +9,7 @@ import Navigation from './Navigation';
 class App extends Component {
     render (){
         return (
-            <Router>
+            <Router basename={process.env.PUBLIC_URL}>
             <div className='app'>
                <header>
                    {<Header/>}
