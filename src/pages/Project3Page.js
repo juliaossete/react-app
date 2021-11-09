@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import '../5-fetch-click-v2/App.css';
-import UsersList from '../5-fetch-click-v2/UsersList';
-import ButtonFetchUsers from '../5-fetch-click-v2/ButtonFetchUsers'
+import '../project3/App.css';
+import UsersList from '../project3/UsersList';
+import ButtonFetchUsers from '../project3/ButtonFetchUsers'
 
 const API = 'https://randomuser.me/api/?results=1';
 
