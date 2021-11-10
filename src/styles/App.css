@@ -10,11 +10,14 @@ div.app {
 
 header {
   flex-basis: 30vh;
+  position: relative;
+  overflow: hidden;
 }
 
 main {
   display: flex;
   flex-grow: 1;
+  padding: 30px 0;
   background-color: black;
 }
 
